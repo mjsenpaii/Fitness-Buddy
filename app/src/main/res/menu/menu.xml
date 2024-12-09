@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:orderInCategory="400"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:orderInCategory="300"
+
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_developers"
+        android:title="Developers"
+        android:icon="@drawable/ic_baseline_live_help_24"
+        android:orderInCategory="200"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        ></item>
+
+</menu>

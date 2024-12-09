@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet the Developers"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Developer 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Profile Image with Rounded Corners -->
+        <ImageView
+            android:id="@+id/dev1Image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background"
+            android:clipToOutline="true"
+            android:src="@drawable/boredape" />
+
+        <!-- Name and Role -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dev1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark John Matining"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dev1Role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Role: Team Leader"
+                android:textStyle="italic"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/dev1Section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="BSI/T-3D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Introduction Section -->
+    <TextView
+        android:id="@+id/dev1Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="Responsible for leading the team and ensuring the project runs smoothly. Passionate about delivering results with efficiency and precision."
+        android:textSize="14sp" />
+
+    <!-- Developer 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Profile Image with Rounded Corners -->
+        <ImageView
+            android:id="@+id/dev2Image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background"
+            android:clipToOutline="true"
+            android:src="@drawable/boredape1" />
+
+        <!-- Name and Role -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dev2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tereinz Jhazztine Motol"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dev2Role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Role: Developer"
+                android:textStyle="italic"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/dev2Section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="BSI/T-3D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Introduction Section -->
+    <TextView
+        android:id="@+id/dev2Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="Focused on development, ensuring seamless data integration and system reliability."
+        android:textSize="14sp" />
+
+    <!-- Developer 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Profile Image with Rounded Corners -->
+        <ImageView
+            android:id="@+id/dev3Image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background"
+            android:clipToOutline="true"
+            android:src="@drawable/boredape2" />
+
+        <!-- Name and Role -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dev3Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jiro Elijah Aguilar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dev3Role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Role: UI Designer"
+                android:textStyle="italic"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/dev3Section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="BSI/T-3D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Introduction Section -->
+    <TextView
+        android:id="@+id/dev3Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="Responsible for creating intuitive user interfaces, enhancing user experiences, and maintaining visual consistency across the app."
+        android:textSize="14sp" />
+
+</LinearLayout>

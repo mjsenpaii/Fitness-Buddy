@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Declare custom attributes -->
+
+    <!-- Theme Attributes -->
+    <attr name="colorPrimary" format="color" /> <!-- Main app color -->
+    <attr name="colorPrimaryVariant" format="color" /> <!-- Darker shade for primary -->
+    <attr name="colorOnPrimary" format="color" /> <!-- Text/icons on primary -->
+
+    <attr name="colorSecondary" format="color" /> <!-- Accent color -->
+    <attr name="colorSecondaryVariant" format="color" /> <!-- Lighter shade of secondary -->
+    <attr name="colorOnSecondary" format="color" /> <!-- Text/icons on secondary -->
+
+    <attr name="colorBackground" format="color" /> <!-- General app background -->
+    <attr name="colorOnBackground" format="color" /> <!-- Text/icons on background -->
+    <attr name="colorSurface" format="color" /> <!-- Background for cards/sheets -->
+    <attr name="colorOnSurface" format="color" /> <!-- Text/icons on surface -->
+
+    <!-- Typography Attributes -->
+    <attr name="textColorPrimary" format="color" /> <!-- Primary text color -->
+    <attr name="textColorSecondary" format="color" /> <!-- Secondary text color -->
+
+    <!-- Status Bar and Navigation Bar Colors -->
+    <attr name="statusBarColor" format="color" /> <!-- Status bar background -->
+    <attr name="navigationBarColor" format="color" /> <!-- Navigation bar background -->
+
+    <!-- Custom Views Attributes -->
+    <declare-styleable name="CustomButton">
+        <attr name="buttonColor" format="color" /> <!-- Button background color -->
+        <attr name="buttonTextColor" format="color" /> <!-- Button text color -->
+        <attr name="cornerRadius" format="dimension" /> <!-- Button corner radius -->
+    </declare-styleable>
+
+    <declare-styleable name="CustomCard">
+        <attr name="cardBackgroundColor" format="color" /> <!-- Card background color -->
+        <attr name="cardElevation" format="dimension" /> <!-- Card shadow elevation -->
+        <attr name="cardCornerRadius" format="dimension" /> <!-- Card corner radius -->
+    </declare-styleable>
+</resources>

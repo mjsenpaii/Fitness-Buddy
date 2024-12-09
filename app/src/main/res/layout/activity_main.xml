@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_fitness_tracker_word"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Features"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="italic|bold"
+        android:textColor="#CDDC39"
+
+        >
+
+    </TextView>
+
+    <ScrollView
+
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            >
+
+            <TableRow
+
+                android:id="@+id/first_row_1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <Button
+                    android:id="@+id/Excercise"
+                    android:layout_width="151dp"
+                    android:layout_height="115dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/fast"
+                    android:onClick="Exercise_show"
+
+                    >
+
+                </Button>
+
+                <Button
+                    android:id="@+id/BmiCal"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_bmi"
+                    android:onClick="BMI_page_show">
+
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:gravity="center"
+                    android:text="Exercise"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
+                    android:text="BMI Calculator"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="italic|bold"
+                    android:textColor="#FFFFF0"
+
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/first_row_2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:id="@+id/Food"
+                    android:layout_width="124dp"
+                    android:layout_height="111dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_daily_food"
+                    android:onClick="diet_show">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/DailyRoutine"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_daily_routine"
+                    android:onClick="showDailyRoutine"
+                    >
+
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:gravity="center"
+                    android:text="Diet"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
+                    android:gravity="center"
+                    android:text="Daily Routine"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold"
+
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <Button
+                    android:id="@+id/YogaExcercise"
+                    android:layout_width="124dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/new_png_yoga"
+                    android:onClick="show_yoga_info">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Counter_steps"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/step_counter"
+                    android:onClick="DailyStepsCount"
+
+                    >
+
+                </Button>
+
+
+
+            </TableRow>
+
+
+
+
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:textSize="20dp"
+                    android:text="Yoga"
+                    android:gravity="center"
+                    android:textStyle="italic|bold"
+                    android:textColor="#FFFFF0"
+                    android:textAlignment="center"
+
+                    />
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
+                    android:gravity="center"
+                    android:text="Pedometer"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+
+
+
+            </TableRow>
+
+
+
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</TableLayout>

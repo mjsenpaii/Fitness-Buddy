@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac_4"
+    android:padding="5dp"
+    tools:context=".BMIInfo"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#EBE0E0"
+        android:text="BMI Section"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="40dp"
+        android:textStyle="italic|bold">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            >
+
+            <Button
+                android:id="@+id/bmi_chart"
+                android:layout_width="203dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="100dp"
+                android:onClick="show_bmichart"
+                android:text="BMI CHART"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+
+                >
+
+            </Button>
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="110dp"
+                android:paddingLeft="60dp"
+                android:text="B.M.I "
+                android:textSize="35dp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/bmi_cal_show"
+                android:layout_width="101dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginRight="30dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="220dp"
+                android:gravity="center"
+                android:text="Height: "
+                android:textSize="21dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/bmi_foot"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="150dp"
+                android:gravity="center"
+                android:hint="Feet"
+                android:inputType="number"
+                android:textSize="21dp"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/bmi_inch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="80dp"
+                android:gravity="center"
+                android:hint="Inches"
+                android:inputType="number"
+                android:textSize="21dp"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="200dp"
+                android:text="Foot (Inch)"
+                android:textSize="21dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginRight="220dp"
+                android:text=" Weight: "
+                android:gravity="center"
+                android:textSize="21dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/bmi_weight"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginRight="110dp"
+                android:gravity="center"
+                android:hint="Kilogram"
+                android:inputType="number"
+                android:textSize="21dp"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="260dp"
+                android:text="kg"
+                android:textSize="21dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/bmi_calculate"
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginRight="100dp"
+                android:onClick="show_bmi_cal"
+                android:text="calculate"
+                android:textSize="20dp"
+                android:textStyle="normal|bold">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/we_catagory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="460dp"
+                android:textStyle="bold|normal"
+                android:textColor="#8BC34A"
+                android:text=""
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/we_catagory_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="460dp"
+                android:text=""
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/health_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold|normal"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="520dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/health_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="520dp"
+                android:text=""
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/causes_of_health"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="600dp"
+                android:text=""
+                android:textSize="20dp"
+                android:textColor="#E74F43"
+                android:textStyle="bold|normal"
+                android:layout_marginBottom="20dp"
+                >
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
